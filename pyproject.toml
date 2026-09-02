@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vectphish"
+version = "0.1.0"
+description = "Open-source phishing campaign detection platform using semantic embeddings, DBSCAN, SQLite recurrence tracking, and optional local LLM enrichment."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Amadeus GSOC"}]
+keywords = ["phishing", "soc", "dbscan", "sentence-transformers", "mitre-attack", "ioc", "ollama"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Security",
+]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "sentence-transformers>=2.2",
+    "streamlit>=1.30",
+    "ollama>=0.2",
+    "pyvis>=0.3",
+    "plotly>=5.18",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black", "mypy", "pre-commit"]
+
+[project.scripts]
+run-vectphish = "vectphish.__main__:main"
+run-vectphish-dashboard = "vectphish.dashboard:main"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
