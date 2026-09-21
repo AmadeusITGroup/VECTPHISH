@@ -306,13 +306,7 @@ The project is actively maintained as an open-source research capability.
 
 ## Security
 
-Please review:
-
-```text
-SECURITY.md
-```
-
-before reporting vulnerabilities.
+Please review [SECURITY.md](SECURITY.md) before reporting vulnerabilities.
 
 Do not submit:
 
@@ -329,12 +323,8 @@ through public issues.
 
 Contributions are welcome.
 
-Please review:
 Please review [CONTRIBUTING.md](CONTRIBUTING.md).
 
-```text
-CONTRIBUTING.md 
-```
 
 before submitting pull requests.
 
@@ -353,11 +343,7 @@ Potential contribution areas:
 
 Licensed under the Apache License 2.0.
 
-See:
-
-```text
-LICENSE
-```
+See the [LICENSE](LICENSE) file for details.
 
 for full details.
 
