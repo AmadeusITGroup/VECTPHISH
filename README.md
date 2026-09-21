@@ -4,7 +4,6 @@
 
 > This project is developed under the **RESCUE (RESilient Cloud for EUropE)** initiative, part of the **IPCEI-CIS** program supporting Europe's next-generation cloud infrastructure and digital sovereignty.
 
-
 # VECTPHISH
 
 Phishing campaign detection platform developed under the **RESCUE initiative**.
