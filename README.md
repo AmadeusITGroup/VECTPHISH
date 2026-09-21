@@ -1,11 +1,7 @@
 <p align="center">
-2
-assets/rescue.png
-3
+  assets/rescue.png
 </p>
-4
- 
-5
+
 > This project is developed under the **RESCUE (RESilient Cloud for EUropE)** initiative, part of the **IPCEI-CIS** program supporting Europe's next-generation cloud infrastructure and digital sovereignty.
 
 
