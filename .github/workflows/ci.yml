@@ -19,3 +19,9 @@ jobs:
 
       - name: Check Python syntax
         run: python -m compileall -q .
+
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Run tests
+        run: pytest -q
