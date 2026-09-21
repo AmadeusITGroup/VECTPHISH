@@ -330,9 +330,10 @@ through public issues.
 Contributions are welcome.
 
 Please review:
+Please review [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```text
-CONTRIBUTING.md
+CONTRIBUTING.md 
 ```
 
 before submitting pull requests.
