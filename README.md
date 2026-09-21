@@ -1,6 +1,6 @@
 # VECTPHISH
 
-Open-source phishing campaign detection platform developed under the **RESCUE initiative**.
+Phishing campaign detection platform developed under the **RESCUE initiative**.
 
 VECTPHISH helps Security Operations Centers (SOCs) identify, correlate, and track phishing campaigns from large email datasets using semantic machine learning embeddings, DBSCAN clustering, MITRE ATT&CK mapping, IOC extraction, historical campaign recurrence tracking, and optional offline LLM enrichment.
 
