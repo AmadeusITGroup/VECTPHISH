@@ -1,5 +1,5 @@
 <p align="center">
-  assets/rescue.png
+  <img src="assets/rescue.png" alt="RESCUE Project" width="400">
 </p>
 
 > This project is developed under the **RESCUE (RESilient Cloud for EUropE)** initiative, part of the **IPCEI-CIS** program supporting Europe's next-generation cloud infrastructure and digital sovereignty.
