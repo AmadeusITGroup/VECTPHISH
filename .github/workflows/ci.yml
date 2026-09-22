@@ -31,3 +31,8 @@ jobs:
 
       - name: Build package
         run: python -m build
+
+      - name: Verify package installation
+        run: |
+          pip install --force-reinstall --no-deps dist/*.whl
+          python -c "import main; print('VECTPHISH package installed successfully')"
