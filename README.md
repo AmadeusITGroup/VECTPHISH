@@ -5,6 +5,7 @@
 > This project is developed under the **RESCUE (RESilient Cloud for EUropE)** initiative, part of the **IPCEI-CIS** program supporting Europe's next-generation cloud infrastructure and digital sovereignty.
 
 # VECTPHISH
+[![CI](https://github.com/AmadeusITGroup/VECTPHISH/actions/workflows/ci.yml/badge.svg)](https://github.com/AmadeusITGroup/VECTPHISH/actions/workflows/ci.yml)
 
 Phishing campaign detection platform developed under the **RESCUE initiative**.
 
