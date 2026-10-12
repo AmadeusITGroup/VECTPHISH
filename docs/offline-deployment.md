@@ -11,7 +11,7 @@ VECTPHISH uses the pre-trained Sentence Transformers model all-MiniLM-L6-v2.
 
 Upstream project: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 
-The model is included to support offline and air-gapped deployments. VECTPHISH does not train, fine-tune, or modify the model and uses it only for semantic embedding generation and similarity analysis.
+The model is distributed as part of the VECTPHISH release solely to support offline and air-gapped deployments. VECTPHISH does not train, fine-tune, or modify the model and uses it only for semantic embedding generation and similarity-based campaign correlation.
 
 
 Expected layout:
