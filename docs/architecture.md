@@ -139,11 +139,11 @@ Both URL embeddings and domain embeddings are compared using cosine similarity.
 
 ## 3. Embedding Generation
 
-VECTPHISH uses the pre-trained SentenceTransformer model:
+VECTPHISH uses the pre-trained Sentence Transformers model all-MiniLM-L6-v2.
 
-```text
-all-MiniLM-L6-v2
-```
+Model source: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+
+The model is used as-is for semantic embedding generation and similarity analysis. No training or fine-tuning is performed by VECTPHISH.
 
 No training or fine-tuning is performed.
 
